@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import HomePage from './Pages/HomePage.tsx';
 
-function App() {
 
+function App() {
   const router = createBrowserRouter([
     {
       path: '/',
