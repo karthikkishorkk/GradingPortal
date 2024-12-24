@@ -2,24 +2,21 @@
 
 ## Getting Started
 
-This project is a React application integrated with Firebase. Follow the steps below to run the application locally:
+This project is a React application integrated with Firebase. Follow the steps below to set up and run the application locally:
 
-### Backend
-
-To start the backend using Firebase emulators, run the following command:
+### Steps to Run the App
 
 ```bash
+# Step 1: Navigate to the backend directory and install dependencies
+cd backend
+npm install
+
+# Step 2: Start the backend using Firebase emulators
 firebase emulators:start --only functions
-```
 
-### Frontend
+# Step 3: Open a new terminal, navigate to the frontend directory, and install dependencies
+cd frontend
+npm install
 
-To start the frontend development server, use:
-
-```bash
+# Step 4: Start the frontend development server
 npm start
-```
-
----
-
-Feel free to update this README as your project evolves!
