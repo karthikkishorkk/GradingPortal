@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CreateEvent from './Pages/AddNewEvent/AddNewEvent.jsx';
 import TeacherRegForm from './Components/TeacherRegForm/TeacherRegForm.tsx'
 import TeacherRegPage from './Pages/TeacherRegPage.jsx/TeacherRegPage.jsx';
+import Teacherlist from './Pages/Teacher_list/Teacherlist.jsx'
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
     {
       path: '/event',
       element: <CreateEvent />,
+    },
+    {
+      path: '/teacher_list',
+      element: <Teacherlist />,
     },
   ]);
 
