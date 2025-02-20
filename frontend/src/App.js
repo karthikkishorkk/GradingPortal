@@ -3,7 +3,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import HomePage from './Pages/HomePage.tsx';
 import Adminpage from './Pages/AdminPage/Adminpage.tsx';
-import TeacherRegForm from './Pages/TeacherRegForm/TeacherRegForm.tsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CreateEvent from './Pages/AddNewEvent/AddNewEvent.jsx';
+import TeacherRegForm from './Components/TeacherRegForm/TeacherRegForm.tsx'
+import TeacherRegPage from './Pages/TeacherRegPage.jsx/TeacherRegPage.jsx';
+
 
 function App() {
   const router = createBrowserRouter([
@@ -16,8 +20,12 @@ function App() {
       element: <Adminpage />,
     },
     {
-      path: '/teacher-reg',
-      element: <TeacherRegForm />,
+      path: '/teacher-reg-page',
+      element: <TeacherRegPage />,
+    },
+    {
+      path: '/event',
+      element: <CreateEvent />,
     },
   ]);
 
