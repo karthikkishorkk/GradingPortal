@@ -1,0 +1,62 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* Wrapper (Page Background) */
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8f8f8; /* Off-white background */
+    color: #333; /* Dark text for contrast */
+    flex-direction: column;
+  }
+  
+  /* Form Container */
+  .form-box {
+    background: white; /* White form box */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Input Fields */
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #b50346; /* Primary color border */
+    background: transparent;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .input-box input::placeholder {
+    color: #777;
+  }
+  
+  /* Submit Button */
+  .submit {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #b50346; /* Primary button color */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .submit:hover {
+    background: #d70450; /* Slightly lighter shade */
+  }
+  
