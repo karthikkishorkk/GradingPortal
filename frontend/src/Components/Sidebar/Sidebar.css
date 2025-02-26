@@ -1,0 +1,43 @@
+.sidebar {
+  background: linear-gradient(to top, #fff, #e23b3b);
+    margin-top: 90px;
+    width: 170px;
+    height: 100vh;
+    padding-top: 20px;
+  }
+  .logo1 {
+    max-width: 40px;
+    height: auto;
+    padding-right: 10px;
+}
+
+  .menu-item {
+    display: flex;
+    align-items:flex-end;
+    margin-left: -26px;
+    padding: 20px 10px;
+    color: #ffffff;
+    border-left: 5px solid transparent;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .menu-item:hover {
+    background-color: rgb(255, 143, 143);
+  }
+  
+  .menu-item.active {
+    background-color: rgba(255, 112, 112, 0.907);
+    border-right: 1px solid #e23b3b;
+    
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .menu-text {
+    font-weight: 600;
+  }
