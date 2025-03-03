@@ -10,7 +10,7 @@ import TeacherRegPage from './Pages/TeacherRegPage.jsx/TeacherRegPage.jsx';
 import Teacherlist from './Pages/Teacher_list/Teacherlist.jsx';
 import Login from './Pages/Login/Login.jsx';  // Import Login component
 import Signup from './Pages/Login/Signup.jsx'; // Import Signup component
-import Dashboard from './Pages/Dashboard/Dashboard.jsx';  // Add Dashboard route
+import Dashboard from './Pages/Dashboard/Dashboard.tsx';  // Add Dashboard route
 
 function App() {
   const router = createBrowserRouter([
